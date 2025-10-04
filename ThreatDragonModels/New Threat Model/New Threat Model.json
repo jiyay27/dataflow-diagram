@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "d25286ec-7ecc-4f65-9109-bedbe805e5eb",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Client",
@@ -158,6 +158,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -241,7 +242,6 @@
               ]
             },
             "id": "768fd2fa-98b2-4c3c-a9aa-61df97f7df4d",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web",
@@ -278,6 +278,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -361,7 +362,6 @@
               ]
             },
             "id": "026647ba-607d-4469-acc0-c296787fabf7",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "SQL Database",
@@ -398,6 +398,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -481,7 +482,6 @@
               ]
             },
             "id": "2b55e687-fe83-4805-874d-f562deb0786d",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Auth",
@@ -518,6 +518,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -601,7 +602,6 @@
               ]
             },
             "id": "36caf279-bfd5-441c-ab73-d33c852e7107",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "LDAP",
@@ -1107,6 +1107,7 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
+            "zIndex": 11,
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
@@ -1136,8 +1137,7 @@
                 "x": 692,
                 "y": 312
               }
-            ],
-            "zIndex": 11
+            ]
           }
         ]
       }
